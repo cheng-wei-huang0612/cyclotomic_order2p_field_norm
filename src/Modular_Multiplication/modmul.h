@@ -5,7 +5,7 @@
 #if !defined(BARRETT_USE_ARM64_ASM)
 
 # if defined(__aarch64__)
-#  define BARRETT_USE_ARM64_ASM 1
+#  define BARRETT_USE_ARM64_ASM 0
 # else
 #  define BARRETT_USE_ARM64_ASM 0
 # endif
